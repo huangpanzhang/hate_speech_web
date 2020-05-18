@@ -1,0 +1,20 @@
+title: Hate Speech Research
+logo: /assets/img/logo.png
+description: A website that links all research progress and datasets at Language Technology Lab in University Duisburg-Essen.
+show_downloads: true
+
+plugins:
+  - jekyll-paginate
+
+theme: jekyll-theme-minimal
+
+livereload: true
+
+defaults:
+  -
+    scope:
+      path: ""      # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      author: "Huangpan Zhang"
